@@ -1,0 +1,18 @@
+.countdown {
+	width: 70%;
+	margin: 10px auto;
+	background-color: gray;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.title {
+
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	
+}
