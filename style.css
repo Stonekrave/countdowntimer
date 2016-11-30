@@ -7,8 +7,9 @@
 	color: white;
 }
 
-.title {
-
+.todoList {
+	width: 70%;
+	margin: 10px auto;
 }
 
 .box {
