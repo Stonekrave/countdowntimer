@@ -13,7 +13,7 @@
 			$.extend(settings, userDate);
 		}
 
-	this_sel = $(this);
+	globalThis = $(this);
 
 	function counting() {
 		eventDate = Date.parse(settings["date"]) / 1000;
@@ -29,10 +29,10 @@
 		//alert(days + " " + hours + " " + minutes + " " + seconds);
 
 
-		this_sel.find(".days").text(days);
-		this_sel.find(".hours").text(hours);
-		this_sel.find(".minutes").text(minutes);
-		this_sel.find(".seconds").text(seconds);
+		globalThis.find(".days").text(days);
+		globalThis.find(".hours").text(hours);
+		globalThis.find(".minutes").text(minutes);
+		globalThis.find(".seconds").text(seconds);
 		}
 
 	counting();
